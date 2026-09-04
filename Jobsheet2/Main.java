@@ -15,6 +15,9 @@ public class Main {
         System.out.println("VIa Copy: " + copy.area());  
         // Rectangle empty = null;  
         // System.out.println(empty.area()); 
+
+        Student s = new Student("Nadia", "5001", 3.8);
+        System.out.println(s.describe());
     }
       
 }
