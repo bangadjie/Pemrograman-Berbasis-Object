@@ -5,14 +5,14 @@ package Jobsheet2;
  */
 public class Main {
     public static void main(String[] args) {
-        Rectangle r = new Rectangle(6,4);
-        
-        r.width = 6;
-        r.height = 4;
+        Rectangle original = new Rectangle(6,4);
 
-        System.out.println("Rectangle " + r.width + "x" + r.height);
-        System.out.println("Area: " + r.area());    
-        System.out.println("Perimeter: " + r.perimeter()); 
+        Rectangle copy = original;
+        copy.width = 10;
+        System.out.println("Via original: " + original.area());
+        System.out.println("VIa Copy: " + copy.area());  
+        Rectangle empty = null;  
+        System.out.println(empty.area()); 
     }
       
 }
