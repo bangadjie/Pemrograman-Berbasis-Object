@@ -16,6 +16,10 @@ public class Main {
         
         Student s = new Student("Nadia", "5001", 3.8);
         System.out.println(s.describe());
+
+        Circle c = new Circle(5);
+        System.out.println("Circle area : " + c.area());
+        System.out.println("Circle area : " + c.circumference());
         // System.out.println("Area: " + original.area());
         // Rectangle copy = original;
         // copy.width = 10;
