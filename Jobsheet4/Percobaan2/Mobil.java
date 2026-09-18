@@ -1,4 +1,4 @@
-package Jobsheet4;
+package Jobsheet4.Percobaan2;
 
 public class Mobil {
     private String merk;

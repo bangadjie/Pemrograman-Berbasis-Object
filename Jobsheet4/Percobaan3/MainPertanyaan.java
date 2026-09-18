@@ -1,4 +1,4 @@
-package Jobsheet4;
+package Jobsheet4.Percobaan3;
 
 public class MainPertanyaan {
     public static void main(String[] args) {
